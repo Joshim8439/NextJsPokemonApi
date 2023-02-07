@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* .abc :hover{
+    background-color: burlywood;
+    
+} */
+
+.bgImage{
+    background-image: url("/Background.png");
+}
+.askImage{
+  background-image: url("/Brush.png");
+}
+
+
+
