@@ -7,7 +7,7 @@ const Details = ({ pokeman, styles }) => {
     return (
         <Layout title={pokeman.name.english}>
             <div className='p-5 mb-40 flex flex-wrap justify-center mx-auto'>
-                <img src="/Logo.png" alt="Sunset in the mountains" />
+            <picture><img src="/Logo.png" alt="Sunset in the mountains" /></picture>
 
             </div>
 
@@ -44,7 +44,7 @@ const Details = ({ pokeman, styles }) => {
                 </div>
 
                 <div class='m-5 rounded-md flex-1'>
-                    <img className='m-20 h-[150px] w-[150px] sm:h-[200px] sm:w-[200px]' src={pokeman.image.hires} alt="Sunset in the mountains" />
+                <picture><img className='m-20 h-[150px] w-[150px] sm:h-[200px] sm:w-[200px]' src={pokeman.image.hires} alt="Sunset in the mountains" /></picture>
                 </div>
                 <div class="flex-1 w-32">
                     <div>

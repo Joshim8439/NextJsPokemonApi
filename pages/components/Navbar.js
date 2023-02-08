@@ -6,9 +6,9 @@ const Navbar = () => {
 
       <nav class="flex items-center justify-between flex-wrap bg-orange-400 p-6">
         <div class="flex items-center flex-shrink-0 text-white mr-6">
-          <img src='/figmaico.png' class='px-2' />
-          <img src='/sidebaricon.png' class='px-4' />
-          <img src='/signupicon.png' class='px-4' />
+        <picture><img src='/figmaico.png' class='px-2' /></picture>
+        <picture><img src='/sidebaricon.png' class='px-4' /></picture>
+        <picture><img src='/signupicon.png' class='px-4' /></picture>
         </div>
 
         <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">

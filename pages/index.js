@@ -16,7 +16,7 @@ export default function Home({ styles, pokeData }) {
       <div class="bgImage">
 
         <div className='p-5 mb-40 flex flex-wrap justify-center mx-auto'>
-          <img src="/Logo.png" alt="Sunset in the mountains" />
+        <picture><img src="/Logo.png" alt="Sunset in the mountains" /></picture>
 
         </div>
 
@@ -30,7 +30,7 @@ export default function Home({ styles, pokeData }) {
                   <Link href={`/pokemons/${pokeman.id}`}>
                   <div class='bg-red-100 m-5 rounded-md'>
                     <h5 className='mt-5 ml-5'>#010</h5>
-                    <img className='h-[150px] w-[150px] sm:h-[200px] sm:w-[200px]' src={pokeman.image.hires} alt="Sunset in the mountains" />
+                    <picture><img className='h-[150px] w-[150px] sm:h-[200px] sm:w-[200px]' src={pokeman.image.hires} alt="Sunset in the mountains" /></picture>
                   </div>
                   <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-2">{pokeman.name.english}</div>
@@ -101,12 +101,12 @@ export default function Home({ styles, pokeData }) {
               <div class="grid grid-rows col-span-2">
 
                 <div class="w-1/2 p-1 md:p-2">
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="/Image01.png" />
+                <picture><img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                    src="/Image01.png" /></picture>
                 </div>
                 <div class="w-1/2 p-1 md:p-2">
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="/Image01.png" />
+                  <picture><img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                    src="/Image01.png" /></picture>
                 </div>
 
 
