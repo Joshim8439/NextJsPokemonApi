@@ -26,7 +26,7 @@ export default function Home({ styles, pokeData }) {
             pokeArry.map((pokeman, i) => {
               return (
 
-                <div class="rounded-b-3xl hover:bg-sky-400 max-w-sm rounded overflow-hidden shadow-lg bg-white m-2">
+                <div key={type} class="rounded-b-3xl hover:bg-sky-400 max-w-sm rounded overflow-hidden shadow-lg bg-white m-2">
                   <Link href={`/pokemons/${pokeman.id}`}>
                   <div class='bg-red-100 m-5 rounded-md'>
                     <h5 className='mt-5 ml-5'>#010</h5>
